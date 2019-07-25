@@ -38,9 +38,12 @@ AuthComponent RenderFragments renamed to better fit built-in Blazor Authenticati
   </ItemGroup>-->
 
   <ItemGroup>
-    <PackageReference Include="Blazor-Auth0-Shared" Version="0.4.0-beta.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components" Version="3.0.0-preview6.19307.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Browser" Version="3.0.0-preview6.19307.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blazor.Auth0.Shared\Blazor.Auth0.Shared.csproj" />
   </ItemGroup>
   
 </Project>
